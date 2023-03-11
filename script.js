@@ -63,11 +63,13 @@ function generatePassword() {
   console.log(included);
 
   var pass = "";
-
+  //  Randomly select characters from string for password length
   for (var i = 0; i < selected[0]; i++) {
     pass = pass + included[Math.floor(Math.random() * included.length)];
     console.log(pass);
   }
+  //  Reset selected citeria
+  chars.splice(0, 4);
   return pass;
 }
 
