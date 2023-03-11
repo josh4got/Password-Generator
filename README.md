@@ -6,21 +6,23 @@ This web application can generate a random string of characters based on selecte
 
 ## Installation
 
-[DeployedWebpage](https://josh4got.github.io/Joshua-Portfolio/)
+[DeployedWebpage](https://josh4got.github.io/Password-Generator/)
+
+![Webpage](./Assets/Webpage.jpeg)
 
 ## Usage
 
-To use this web application a user can click on gerate password.
+To use this web application a user can click to gerate a password.
 
-[password]
+![password](./Assets/Pass.PNG)
 
 When clicked the user will be prompted for a password length between 8-128 characters. They will then be asked if which character types they would like to include.
 
-[prompt]
+![length](./Assets/length.PNG)
 
 The web application will validate the length and selected characters. The webpage then displays your generated password in the window.
 
-[alert]
+![alert](./Assets/Alert.PNG)
 
 ## Credits
 
